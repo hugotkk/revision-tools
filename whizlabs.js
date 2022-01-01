@@ -12,7 +12,7 @@
   'use strict';
 
   const showHideResult = function() {
-    document.querySelectorAll('li.right span, li.wrong span').forEach((e) => e.style.display = e.style.display == 'none' ? 'inline' : 'none');
+    document.querySelectorAll('.explanation-block, li.right span, li.wrong span').forEach((e) => e.style.display = e.style.display == 'none' ? 'inline' : 'none');
   };
 
   const cleanupAnswers = function() {
